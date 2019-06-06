@@ -1,7 +1,7 @@
 .header {
   width: 100%;
   height: 80px;
-  background-color: $pastel-pink;
+  background-color: $white;
 }
 
 .header__menu {
@@ -10,7 +10,49 @@
 }
 
 .header__menu-logo img {
-  width: 3%;
+  width: 2%;
   padding-left: 60px;
-  padding-top: 15px;
+  padding-top: 25px;
+}
+
+.header__menu-list span {
+  position:absolute;
+  width: 100px;
+  height: 80px;
+  top: 5%;
+  left: 12%;
+  margin-top: 0px;
+  margin-left: 0px;
+  font-family: $pt-mono;
+  font-weight: $regular;
+  font-size: $medium;
+  color: $quick-silver;
+}
+
+.header__menu-list-about {
+  position:absolute;
+  width: 100px;
+  height: 80px;
+  top: 5%;
+  left: 35%;
+  padding-left: 2%;
+}
+
+.header__menu-list-store {
+  position:absolute;
+  width: 100px;
+  height: 80px;
+  top: 5%;
+  left: 32%;
+  padding-left: 13%;
+}
+
+.header__button {
+  position:absolute;
+  width: 100px;
+  height: 80px;
+  top: 5%;
+  left: 60%;
+  margin-top: 0px;
+  margin-left: 0px;
 }

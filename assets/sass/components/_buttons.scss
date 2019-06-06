@@ -1,0 +1,27 @@
+.header__button-iniciar {
+  position:absolute;
+  width: 154px;
+  height: 25px;
+  left: 32%;
+  padding-left: center;
+  font-family: $pt-mono;
+  font-weight: $regular;
+  font-size: $medium;
+  color: $quick-silver;
+  border-color: $quick-silver;
+  background-color: $white;
+}
+
+.header__button-regist {
+  position:absolute;
+  width: 154px;
+  height: 25px;
+  left: 200%;
+  padding-left: center;
+  font-family: $pt-mono;
+  font-weight: $regular;
+  font-size: $medium;
+  color: $white;
+  border-color: $shiny-shamrock;
+  background-color: $shiny-shamrock;
+}
