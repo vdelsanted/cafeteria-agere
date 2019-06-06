@@ -2,6 +2,7 @@
 <html lang="es" dir="ltr">
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="assets/css/main.css">
   <title>Cafetería Agere</title>
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=PT+Mono|Roboto:300&display=swap" rel="stylesheet">
@@ -11,17 +12,20 @@
 </head>
 
 <body>
-  <header class="header">
-    <nav class="header__menu">
-      <img src="assets/img/logo.png" alt="Logo" class="Logo">
-      <ul class="header__menu-list">
-        <li>Acerca de</li>
-        <li>Tienda</li>
-      </ul>
-    </nav>
-    <div class="header__button">
-      <button type="button" name="button">Iniciar sesión</button>
-      <button type="button" name="button">Regístrate</button>
+
+  <header class="container header">
+    <div class="row header__menu">
+      <div class="col-2 header__menu-logo">
+        <img src="assets/img/logo.png" alt="Logo" class="Logo">
+      </div>
+      <div class="col-6 header__menu-list">
+        <span>Acerca de</span>
+        <span>Tiendas</span>
+      </div>
+      <div class="col-4 header__button">
+        <button type="button" name="button">Iniciar sesión</button>
+        <button type="button" name="button">Regístrate</button>
+      </div>
     </div>
   </header>
 
@@ -31,7 +35,7 @@
     </div>
     <div class="contenido__txt">
       <h1>Café Agere</h1>
-      <h5>Coffe Shop</h5>
+      <h4>Coffe Shop</h4>
     </div>
 
     <div class="container contenido__variedades">
