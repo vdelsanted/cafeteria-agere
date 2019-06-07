@@ -263,7 +263,7 @@ p {
   width: 397px;
   height: 221px;
   padding-right: 80px;
-  margin-left: -10%;
+  margin-left: -5%;
 }
 
 .footer__img-cafe {
@@ -272,6 +272,15 @@ p {
   height: 166px;
   padding-left: 30%;
   padding-top: 0px;
+  margin-top: -13px;
+  z-index: 4;
+}
+
+.footer__img-maquina {
+  position: absolute;
+  width: 376px;
+  height: 263px;
+  margin-left: 32%;
   margin-top: -13px;
 }
 
